@@ -3,7 +3,7 @@ const app=document.getElementById("app");
 loading();
 function loading(){
 app.innerHTML=`<div class="screen">
-<div class="logo">STILL US</div>
+<div class="logo">Not Creepy at All</div>
 <div class="subtitle" id="txt">Loading memories...</div>
 <div class="loader"><div id="bar" class="progress"></div></div>
 <div id="percent">0%</div></div>`;
@@ -12,8 +12,8 @@ let bar=barEl(),txt=id("txt"),pct=id("percent");
 const t=setInterval(()=>{
  if(p)return;
  v++;bar.style.width=v+"%";pct.textContent=v+"%";
- if(v==20)txt.innerHTML="Finding Concert Memories...";
- if(v==45)txt.innerHTML="Looking for Yoshu...";
+ if(v==20)txt.innerHTML="Finding Honey Singh Concert Memories...";
+ if(v==45)txt.innerHTML="not creepy a all 😖😖";
  if(v==69){txt.innerHTML="😏 Nice...<br>Loading Vietnam memories 🇻🇳";p=true;setTimeout(()=>p=false,1500);}
  if(v>=100){clearInterval(t);setTimeout(lockScreen,500);}
 },40);
@@ -38,7 +38,7 @@ app.innerHTML=`<div class="screen"><div id="chat" class="chat"></div><button id=
 const msgs=[
 "Happy Birthday Yoshu ❤️",
 "I wanted this to feel different.",
-"So I built you an app instead of sending a boring text 😊",
+"So I am Generelly creating this invite instead of sending a boring text 😊",
 "Every screen hides a surprise.",
 "Tomorrow, after HYROX, I have something planned for us.",
 "Will you go on a date with me? ❤️"
