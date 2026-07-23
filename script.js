@@ -38,10 +38,10 @@ app.innerHTML=`<div class="screen"><div id="chat" class="chat"></div><button id=
 const msgs=[
 "Happy Birthday Yoshu ❤️",
 "I wanted this to feel different.",
-"So I am Generelly creating this invite instead of sending a boring text 😊",
-"Every screen hides a surprise.",
-"Tomorrow, after HYROX, I have something planned for us.",
-"Will you go on a date with me? ❤️"
+"So I am GENERELLY creating this invite instead of sending a boring text 😊",
+"Eventhough you are a control freak, I have some surprises for you",
+"Tomorrow, after HYROX, I have something planned for you and i am sure it will make you happy.",
+"Press Continuea and the date countdown begins ❤️"
 ];
 let i=0,c=id("chat");
 function next(){
@@ -68,8 +68,8 @@ app.innerHTML=`<div class="screen">
 <div class="logo" style="font-size:54px">STILL US</div>
 <div class="subtitle">Our Date Begins In</div>
 <div id="t" class="time"></div>
-<div class="subtitle">Hotel ✓<br>Dinner ✓<br>Surprises ✓<br><br>The only thing missing... You ❤️</div>
-<button id="b" class="btn hidden">Begin Our Story ❤️</button></div>`;
+<div class="subtitle">Venu - Lemon Tree ✓<br>Party - Planned ✓<br>Gifts - Ready  ✓<br><br>The only thing missing... You and you cute little ass ❤️</div>
+<button id="b" class="btn hidden">Check your whatsapp.. ❤️</button></div>`;
 function tick(){
  let d=target-new Date();
  if(d<=0){id("t").textContent="00:00:00";id("b").classList.remove("hidden");return;}
